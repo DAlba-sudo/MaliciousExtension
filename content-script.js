@@ -26,7 +26,7 @@ function rdg() {
     }
 
     for (let i = 0; i < subdomain_len; i++) {
-        domain.concat(alphabet[Math.floor(Math.random() * alphabet.length)]);
+        domain += (alphabet.charAt(Math.floor(Math.random() * alphabet.length)));
     }
 
     return "https://" + subdomain + "." + domain + "." + ending;
