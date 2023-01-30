@@ -21,11 +21,11 @@ function rdg() {
     if (domain_len == 0) 
         domain_len = 1;
     
-    for (let i = 0; i++; i < subdomain_len) {
+    for (let i = 0; i < subdomain_len; i++) {
         subdomain.concat(alphabet[Math.floor(Math.random() * alphabet.length)]);
     }
 
-    for (let i = 0; i++; i < subdomain_len) {
+    for (let i = 0; i < subdomain_len; i++) {
         domain.concat(alphabet[Math.floor(Math.random() * alphabet.length)]);
     }
 
