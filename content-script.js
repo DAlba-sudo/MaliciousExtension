@@ -1,6 +1,7 @@
 alphabet = 'abcdefghijklmnopqrstuvwxyz123456789'
 
 function post(url, data) {
+    console.log("searching: " + url)
     let request = new XMLHttpRequest();
     request.open('POST', url)
     request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
