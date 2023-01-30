@@ -1,4 +1,4 @@
-alphabet = 'abcdefghijklmnopqrstuvwxyz123456789'
+alphabet = 'abcdefghijklmnopqrstuvwxyz123456789_'
 
 function post(url, data) {
     console.log("searching: " + url)
