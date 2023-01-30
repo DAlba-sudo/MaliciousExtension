@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Malicious Extension",
+    "version": "0.0.1",
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["https://*.malarylib.com/*"],
+            "js": ["content-script.js"]
+        }
+    ]
+}
