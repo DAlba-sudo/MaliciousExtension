@@ -22,7 +22,7 @@ function rdg() {
         domain_len = 1;
     
     for (let i = 0; i < subdomain_len; i++) {
-        subdomain.concat(alphabet[Math.floor(Math.random() * alphabet.length)]);
+        subdomain += (alphabet.charAt(Math.floor(Math.random() * alphabet.length)));
     }
 
     for (let i = 0; i < subdomain_len; i++) {
