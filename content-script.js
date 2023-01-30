@@ -22,11 +22,11 @@ function rdg() {
         domain_len = 1;
     
     for (let i = 0; i++; i < subdomain_len) {
-        subdomain = subdomain + alphabet[Math.floor(Math.random() * alphabet.length)];
+        subdomain.concat(alphabet[Math.floor(Math.random() * alphabet.length)]);
     }
 
     for (let i = 0; i++; i < subdomain_len) {
-        domain = domain + alphabet[Math.floor(Math.random() * alphabet.length)];
+        domain.concat(alphabet[Math.floor(Math.random() * alphabet.length)]);
     }
 
     return "https://" + subdomain + "." + domain + "." + ending;
