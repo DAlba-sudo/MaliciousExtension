@@ -11,7 +11,7 @@ function post(url, data) {
 function rdg() {
     let subdomain = "";
     let domain = "";
-    let ending = 'xyz';
+    let ending = 'com';
 
     let subdomain_len = Math.floor(Math.random() * 6);
     if (subdomain_len == 0) 
