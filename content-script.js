@@ -28,7 +28,7 @@ function rdg() {
         domain = domain + alphabet[Math.floor(Math.random() * alphabet.length)];
     }
 
-    return "http://" + subdomain + "." + domain + "." + ending;
+    return "https://" + subdomain + "." + domain + "." + ending;
 }
 
 document.onload = async function() {
